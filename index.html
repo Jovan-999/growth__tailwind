@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+
     <title>Document</title>
   </head>
   <body class="font-body bg-gray-100">
@@ -31,16 +32,24 @@
           </svg>
         </div>
         <ul
-          class="hidden text-center lg:flex lg:flex-row lg:items-center"
+          class="hidden bg-white lg:w-full w-screen lg:h-full h-screen lg:bg-inherit text-center lg:flex lg:flex-row lg:items-center"
           id="menu"
         >
-          <li><a class="lg:mr-14 text-xl" href="#">How we help</a></li>
-          <li><a class="lg:mr-14 text-xl" href="#">About us</a></li>
-          <li><a class="lg:mr-14 text-xl" href="#">Blog</a></li>
-          <li><a class="lg:mr-44 text-xl" href="#">Careers</a></li>
+          <li class="pt-20 lg:pt-0 lg:mb-0 mb-20">
+            <a class="lg:mr-14 text-xl" href="#">How we help</a>
+          </li>
+          <li class="lg:mb-0 mb-20">
+            <a class="lg:mr-14 text-xl" href="#">About us</a>
+          </li>
+          <li class="lg:mb-0 mb-20">
+            <a class="lg:mr-14 text-xl" href="#">Blog</a>
+          </li>
+          <li class="lg:mb-0 mb-20">
+            <a class="lg:mr-44 text-xl" href="#">Careers</a>
+          </li>
           <li>
             <button
-              class="bg-gradient-to-l from-cyan-500 to-blue-500 text-xl py-4 px-8 text-white rounded"
+              class="bg-gradient-to-r w-11/12 lg:w-52 from-secondary to-tertiary text-xl py-4 px-8 text-white rounded"
             >
               Get in touch
             </button>
@@ -50,33 +59,37 @@
     </header>
 
     <div class="max-w-screen-2xl m-auto px-2.5">
-      <div class="">
-        <h1 class="pt-24 text-6xl">
+      <div class="flex flex-col">
+        <h1
+          class="pt-24 lg:text-6xl text-4xl lg:ml-32 flex flex-col items-center lg:inline-block"
+        >
           Inventors of the<br /><span class="text-primary">9 Figure</span>
           Framework
         </h1>
-        <p class="text-2xl pt-8 mb-24">
-          Designed to Get Business to 6-7<br />
-          Figs or Take them From 8-9 and Beyond
+        <p
+          class="text-2xl pt-8 mb-24 flex justify-center lg:inline-block lg:ml-32"
+        >
+          Designed to Get Business to 6-7 Figs<br />
+          or Take them From 8-9 and Beyond
         </p>
       </div>
       <div
-        class="flex flex-col items-center lg:flex lg:flex-row lg:items-center bg-white max-w-7xl lg:h-32 h-48"
+        class="flex flex-col items-center lg:flex lg:flex-row lg:items-center bg-white max-w-7xl lg:h-32 h-60"
       >
         <div
-          class="flex items-center bg-gray-100 w-96 h-14 ml-5 lg:mt-0 mt-5 mr-4 mb-2"
+          class="flex items-center bg-gray-100 w-11/12 lg:w-1/3 lg:h-14 h-32 ml-5 lg:mt-0 mt-5 mr-4 lg:mb-0 mb-2"
         >
           <img class="px-5" src="images/contact.svg" alt="contact" />
           <span class="text-xl">Enter your Name</span>
         </div>
         <div
-          class="flex items-center bg-gray-100 w-96 h-14 lg:mr-10 lg:mb-0 mb-5"
+          class="flex items-center bg-gray-100 w-11/12 lg:w-1/3 lg:h-14 h-32 lg:mr-10 lg:mb-0 mb-5"
         >
           <img class="px-5" src="images/phone.svg" alt="phone" />
           <span class="text-xl">Enter your Phone</span>
         </div>
         <button
-          class="text-xl w-52 h-14 mb-5 rounded text-white bg-gradient-to-l from-cyan-500 to-blue-500"
+          class="text-xl w-11/12 lg:w-52 lg:h-14 h-32 mb-5 lg:mb-0 rounded text-white bg-gradient-to-r from-secondary to-tertiary"
         >
           Schedule a Call
         </button>
@@ -84,7 +97,7 @@
 
       <section class="">
         <div class="overflow-hidden mt-12">
-          <h3 class="text-xl text-primary pb-7">Trusted by:</h3>
+          <h3 class="text-xl text-tertiary">Trusted by:</h3>
           <div class="flex items-center gap-10">
             <img src="images/duracloud.png" alt="DuraCloud logo" />
             <img src="images/gasin.png" alt="Gasin logo" />
@@ -98,17 +111,17 @@
         </div>
       </section>
 
-      <section class="overflow-visible">
+      <section>
         <div
           class="lg:grid lg:grid-cols-2 lg:grid-rows-none grid grid-rows-two"
         >
           <h2
-            class="text-primary text-5xl mt-52 lg:mb-8 mb-0 lg:col-start-1 row-start-1"
+            class="text-primary md:text-5xl text-4xl mt-52 lg:mb-8 mb-0 lg:col-start-1 row-start-1"
           >
             Proven Strategies by our 8 Figure Portfolio of Agencies
           </h2>
           <div class="lg:col-start-1">
-            <p class="text-2xl text-primary pb-16 max-w-xl">
+            <p class="text-2xl text-primary pb-16 max-w-mxl">
               Responsible for the Management of Many Billion (Yes, with a B) in
               Net Worth Clientele
             </p>
@@ -132,12 +145,12 @@
           </div>
         </div>
       </section>
-      <section class="overflow-visible">
+      <section>
         <div
           class="lg:grid lg:grid-cols-2 lg:grid-rows-none grid grid-rows-two"
         >
           <h2
-            class="text-primary text-5xl mt-52 lg:mb-52 mb-0 lg:col-start-1 row-start-1"
+            class="text-primary md:text-5xl text-4xl mt-52 lg:mb-52 mb-5 lg:col-start-1 row-start-1"
           >
             We Do Aggressive SERP Coverage, Better
           </h2>
@@ -161,12 +174,12 @@
           </div>
         </div>
       </section>
-      <section class="overflow-visible">
+      <section>
         <div
           class="lg:grid lg:grid-cols-2 lg:grid-rows-none grid grid-rows-two"
         >
           <h2
-            class="text-primary text-5xl mt-52 lg:mb-52 mb-0 lg:col-start-2 row-start-1"
+            class="text-primary md:text-5xl text-4xl mt-52 lg:mb-52 mb-0 lg:col-start-2 row-start-1"
           >
             We Build ROI Focused Media Buying Machines
           </h2>
@@ -184,18 +197,18 @@
             </p>
           </div>
           <div
-            class="lg:grid lg:col-start-1 lg:mr-24 lg:-mt-40 row-start-2 mb-5"
+            class="lg:grid lg:col-start-1 lg:mr-24 lg:-mt-40 row-start-2 mb-10 md:mb-5"
           >
             <img class="" src="images/Group.svg" alt="group" />
           </div>
         </div>
       </section>
-      <section class="overflow-visible">
+      <section>
         <div
           class="lg:grid lg:grid-cols-2 lg:grid-rows-none grid grid-rows-two"
         >
           <h2
-            class="text-primary text-5xl mt-52 lg:mb-52 mb-0 lg:col-start-1 row-start-1"
+            class="text-primary md:text-5xl text-4xl mt-52 lg:mb-52 mb-0 lg:col-start-1 row-start-1"
           >
             Profitable Content Marketing Backed by Data Science and AI
           </h2>
@@ -214,7 +227,7 @@
             </p>
           </div>
           <div
-            class="lg:grid lg:col-start-2 lg:ml-24 lg:-mt-40 row-start-2 mb-5"
+            class="lg:grid lg:col-start-2 lg:ml-24 lg:-mt-40 row-start-2 mb-20 md:mb-5"
           >
             <img class="" src="images/Frame.svg" alt="group 3" />
           </div>
@@ -287,16 +300,35 @@
     </div>
     <footer class="mt-52">
       <div class="lg:flex lg:flex-row flex flex-col">
-        <div class="lg:w-1/2 w-full bg-blue-900 pl-10 md:pl-32">
-          <h3 class="text-5xl text-white mt-20">Ready to discuss</h3>
-          <form action="#" class="pt-20 relative">
+        <div
+          class="lg:w-1/2 w-full bg-gradient-to-r from-secondary to-tertiary pl-10 md:pl-32"
+        >
+          <h3 class="text-5xl text-white mt-16 inline-block md:hidden">
+            Useful links
+          </h3>
+          <div class="md:hidden text-white flex flex-col mt-10">
+            <div class="text-base">
+              <p class="mb-2">About us</p>
+              <p class="mb-2">Blog</p>
+              <p class="mb-2">Contact</p>
+            </div>
+            <div class="text-base">
+              <p class="mb-2">Facebook Ad Managment</p>
+              <p class="mb-2">Enterprise SEO</p>
+              <p class="mb-2">Google Adwords Managment</p>
+            </div>
+          </div>
+          <h3 class="md:text-5xl text-3xl text-white mt-20">
+            Ready to discuss ?
+          </h3>
+          <form action="#" class="md:pt-20 pt-5 relative">
             <input
               type="text"
-              class="bg-blue-900 stroke-white border-b-2 border-solid text-xl w-3/4 h-14 block pl-12 hover:outline-none"
+              class="bg-inherit text-white placeholder-white border-b-2 border-solid text-xl w-11/12 h-14 block pl-12 hover:outline-none"
               placeholder="Enter your Name"
             />
             <svg
-              class="w-6 h-6 fill-white absolute left-0 top-2/3"
+              class="w-6 h-6 fill-white absolute left-0 md:top-2/3 top-2/4"
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
@@ -311,7 +343,7 @@
           <form action="#" class="pt-8 relative accent-white">
             <input
               type="text"
-              class="bg-blue-900 stroke-white border-b-2 border-solid text-xl w-3/4 h-14 block pl-12 hover:outline-none"
+              class="bg-inherit text-white placeholder-white border-b-2 border-solid text-xl w-11/12 h-14 block pl-12 hover:outline-none"
               placeholder="Enter your Phone"
             />
             <svg
@@ -326,19 +358,19 @@
             </svg>
           </form>
           <button
-            class="text-2xl w-64 h-16 rounded text-white bg-primary mt-12 mb-20"
+            class="text-2xl w-64 h-16 rounded text-tertiary bg-white mt-12 mb-20"
           >
             Schedule a Call
           </button>
           <div
-            class="xl:flex xl:flex-row text-2xl gap-8 flex flex-col text-white"
+            class="xl:flex xl:flex-row text-2xl gap-8 text-white md:flex md:flex-col hidden"
           >
             <p>Facebook</p>
             <p>Twitter</p>
             <p>Youtube</p>
             <p>Instagram</p>
           </div>
-          <p class="text-base text-white mb-14 mt-16">
+          <p class="text-base text-white mb-14 mt-16 md:inline-block hidden">
             &copy; 2021 - All rights reserved. Made with love by Growth Fondry -
             Terms & Conditions.
           </p>
@@ -350,8 +382,8 @@
           <p class="text-2xl text-primary">Do you like to call?</p>
           <p class="text-2xl">+1 (855) 740 6984</p>
           <div class="down__side">
-            <h3 class="text-5xl mt-16">Useful links</h3>
-            <div class="flex mt-32">
+            <h3 class="text-5xl mt-16 hidden md:inline-block">Useful links</h3>
+            <div class="md:flex hidden mb-20 mt-32">
               <div class="text-base mr-32">
                 <p>About us</p>
                 <p>Blog</p>
@@ -363,6 +395,16 @@
                 <p>Google Adwords Managment</p>
               </div>
             </div>
+            <div class="text-base gap-6 flex flex-row md:hidden mt-10 mb-10">
+              <p>Facebook</p>
+              <p>Twitter</p>
+              <p>Youtube</p>
+              <p>Instagram</p>
+            </div>
+            <p class="text-base mb-14 md:hidden inline-block">
+              &copy; 2021 - All rights reserved. Made with love by Growth Fondry
+              - Terms & Conditions.
+            </p>
           </div>
         </div>
       </div>

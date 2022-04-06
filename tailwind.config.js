@@ -7,6 +7,8 @@ module.exports = {
       },
       colors: {
         primary: '#304f95',
+        secondary: '#234DAE',
+        tertiary: '#347BCE',
       },
       gridTemplateRows: {
         two: '400px 1fr',
